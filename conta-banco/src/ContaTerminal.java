@@ -33,7 +33,8 @@ public class ContaTerminal {
         teclado.nextLine();
         System.out.println("Saldo: "+saldo+" (depois ENTER para o próximo campo)");
         teclado.nextLine();
-
+        teclado.close();
+        
         System.out.println("Olá "+nome+", obrigado por criar uma conta em nosso banco, sua agência é "+agencia+", conta "+numero+" e seu saldo "+saldo+" já está disponível para saque.\n");
 
     }
